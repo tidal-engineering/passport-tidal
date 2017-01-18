@@ -1,0 +1,55 @@
+{
+  "name": "passport-tidal",
+  "version": "0.0.0",
+  "description": "PassportJS Login/Signup for TIDAL",
+  "homepage": "https://www.tidal.com",
+  "author": {
+    "name": "Daniel Cherubini",
+    "email": "daniel.cherubini@tidal.com",
+    "url": ""
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "passport",
+    "tidal",
+    "oauth2"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-flow-strip-types": "^6.21.0",
+    "babel-preset-es2015": "6.9.0",
+    "babel-register": "^6.9.0",
+    "del": "^2.0.2",
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "isparta": "^4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "danmademe/passport-tidal",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "Apache-2.0"
+}
