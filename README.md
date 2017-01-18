@@ -25,5 +25,5 @@ Apache-2.0 © [TIDAL]()
 [travis-url]: https://travis-ci.org/tidal-engineering/passport-tidal
 [daviddm-image]: https://david-dm.org/tidal-engineering/passport-tidal.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/tidal-engineering/passport-tidal
-[coveralls-image]: https://coveralls.io/repos/tidal-engineering/passport-tidal/badge.svg
-[coveralls-url]: https://coveralls.io/r/tidal-engineering/passport-tidal
+[coveralls-image]: https://coveralls.io/repos/github/tidal-engineering/passport-tidal/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/tidal-engineering/passport-tidal?branch=master
