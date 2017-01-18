@@ -49,7 +49,10 @@
   "repository": "danmademe/passport-tidal",
   "scripts": {
     "prepublish": "gulp prepublish",
-    "test": "gulp"
+    "test": "gulp",
+    "preversion": "npm test",
+    "version": "gulp build && git add -A",
+    "postversion": "git push && git push --tags"
   },
   "license": "Apache-2.0"
 }
