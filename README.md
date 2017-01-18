@@ -16,14 +16,14 @@ passportTidal('Rainbow');
 ```
 ## License
 
-Apache-2.0 © [Daniel Cherubini]()
+Apache-2.0 © [TIDAL]()
 
 
 [npm-image]: https://badge.fury.io/js/passport-tidal.svg
 [npm-url]: https://npmjs.org/package/passport-tidal
-[travis-image]: https://travis-ci.org/danmademe/passport-tidal.svg?branch=master
-[travis-url]: https://travis-ci.org/danmademe/passport-tidal
-[daviddm-image]: https://david-dm.org/danmademe/passport-tidal.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/danmademe/passport-tidal
-[coveralls-image]: https://coveralls.io/repos/danmademe/passport-tidal/badge.svg
-[coveralls-url]: https://coveralls.io/r/danmademe/passport-tidal
+[travis-image]: https://travis-ci.org/tidal-engineering/passport-tidal.svg?branch=master
+[travis-url]: https://travis-ci.org/tidal-engineering/passport-tidal
+[daviddm-image]: https://david-dm.org/tidal-engineering/passport-tidal.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/tidal-engineering/passport-tidal
+[coveralls-image]: https://coveralls.io/repos/tidal-engineering/passport-tidal/badge.svg
+[coveralls-url]: https://coveralls.io/r/tidal-engineering/passport-tidal
