@@ -54,5 +54,9 @@
     "version": "gulp build && git add -A",
     "postversion": "git push && git push --tags"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "passport-oauth2": "^1.4.0",
+    "xtraverse": "^0.1.0"
+  }
 }
