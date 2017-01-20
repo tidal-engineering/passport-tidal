@@ -56,7 +56,8 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "passport-oauth2": "^1.4.0",
-    "xtraverse": "^0.1.0"
+    "chai": "^3.5.0",
+    "chai-passport-strategy": "^1.0.0",
+    "passport-oauth2": "^1.4.0"
   }
 }
