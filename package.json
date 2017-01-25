@@ -46,7 +46,7 @@
       "mocha": true
     }
   },
-  "repository": "danmademe/passport-tidal",
+  "repository": "tidal-engineering/passport-tidal",
   "scripts": {
     "prepublish": "gulp build",
     "test": "gulp",
