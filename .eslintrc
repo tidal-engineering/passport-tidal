@@ -10,7 +10,8 @@
         "eslint:recommended"
     ],
     "plugins": [
-        "flowtype"
+        "flowtype",
+        "flow-bin"
     ],
     "parserOptions": {
         "sourceType": "module"
