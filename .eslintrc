@@ -11,15 +11,16 @@
     ],
     "plugins": [
         "flowtype",
-        "flow-bin"
+        "flowtype-errors"
     ],
     "parserOptions": {
         "sourceType": "module"
     },
     "rules": {
-        no-console: [
+        "flowtype-errors/show-errors": 2,
+        "no-console": [
             "error", {
-                allow: ["warn", "error"]
+                "allow": ["warn", "error"]
             }
         ],
         "indent": [
