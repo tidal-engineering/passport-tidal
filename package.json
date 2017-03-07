@@ -17,6 +17,9 @@
     "tidal",
     "oauth2"
   ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "devDependencies": {
     "babel-core": "^6.11.4",
     "babel-eslint": "^6.1.2",
