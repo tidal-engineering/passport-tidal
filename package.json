@@ -1,6 +1,6 @@
 {
   "name": "passport-tidal",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "PassportJS Login/Signup for TIDAL",
   "homepage": "https://www.tidal.com",
   "author": {
