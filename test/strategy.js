@@ -40,7 +40,7 @@ describe('Strategy', function() {
             .req(function(req) {}).authenticate();
         });
         it('should be redirected', function() {
-            chai.expect(url).to.equal('https://login.stage.tidal/authorize?response_type=code&client_id=' + tidalConfig.clientID);
+            chai.expect(url).to.equal('https://login.tidal.com/authorize?response_type=code&client_id=' + tidalConfig.clientID);
         });
     });
 
