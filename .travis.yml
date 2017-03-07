@@ -3,3 +3,13 @@ node_js:
   - v7
   - v6
   - v5
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: daniel@cherubini.casa
+  api_key:
+    secure: AN2Demh85gW0cDFtthtH+pI3jgdsGxJNX+ZGwBfGRMQrlbWwqgqqKhaTkZgiX7Rcpf3jWClnBmeXOetTGXfMqlb4SQs7/hH/2+h7gPi7MTUHKOzH/U+uBtPrPQmvLaTAYEGouQy+VdpQVnsTPTDEBN7kGIiCLnvs6rA/zfTAt/zPtjJLZWp2yGUP732NcDfIixSRAXs4payQJWhVFHubDPoAkUN1vUiVkfx/tVYRIugDrJpBPWDfbeR7nhvu2oRY+bOZ69EPMFbyrwfIzPd8jkaE7xd26nbLsfQt3EK+EfFLZ65C6tcbp6/bdJwXz7lrhzjLw0TEfu2wo5AzEfX2rGSnVRAV1XBXLbuVdLjwzPC0bkjE3G+kiMRzFF1KfTGo0T9kVkQ3GbCUswr7/WFGAhrCePYAWkF4XqclzoXfebFO44/+6ptLQeofRib/eYaEK+fDW6RhKGHTO/mqscyq0Bbe4fHxis2eZLQzEe0vHor8S83DPNI5oTDumUoRO5/AinCt8nv2tXWHrhYDwqu+Uz8E9zBdyeasgdN0H1kN4gQx+J4yOMGVGF3IYsawk+qxW/zY5PlfCbX1IH/PgiOItG6AFXLdwR1xzyJu7UftVYK/kuI0fdcNPu02d3YrY7edG4DBQ6wKa5Ah30ar4k/7R3FJUC+/FywikVibRKzPA+U=
+  on:
+    branch: master
+    tags: true
+    repo: tidal-engineering/passport-tidal
